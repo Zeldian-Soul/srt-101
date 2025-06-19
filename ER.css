@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #005b96;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003f6b;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.event-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: left;
+  position: relative;
+}
+
+.event-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.event-card h3 {
+  margin-top: 10px;
+}
+
+.event-card p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.event-card small {
+  display: block;
+  margin-top: 5px;
+  color: gray;
+}
+
+.event-card .delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.register-form {
+  margin-top: 10px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  margin: 0 5px;
+  background: #ddd;
+  color: #000;
+}
+
+.countdown {
+  font-weight: bold;
+  margin-top: 8px;
+  color: #007700;
+  font-size: 0.9rem;
+}
